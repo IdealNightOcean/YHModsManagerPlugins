@@ -1,0 +1,73 @@
+{
+  "plugin_id": "AmazingCultivationSimulator",
+  "plugin_version": "1.1.0",
+  "entry_point": "adapter",
+  "game_info": {
+    "steam_app_id": "955900",
+    "game_id": "AmazingCultivationSimulator",
+    "default_name": "了不起的修仙模拟器",
+    "description": "了不起的修仙模拟器 Mod管理工具",
+    "icon": "acs",
+    "author": "GSQ Games",
+    "website": "https://acsjgame.com/"
+  },
+  "path_validation": {
+    "game_folder_names": {
+      "windows": [
+        "Amazing Cultivation Simulator",
+        "AmazingCultivationSimulator",
+        "ACS"
+      ],
+      "linux": [
+        "Amazing Cultivation Simulator",
+        "AmazingCultivationSimulator"
+      ],
+      "macos": []
+    },
+    "executable_paths": {
+      "windows": [
+        "ACS.exe",
+        "Amazing Cultivation Simulator.exe"
+      ],
+      "linux": [
+        "ACS.exe"
+      ],
+      "macos": []
+    },
+    "required_paths": {
+      "windows": {
+        "local_mods": "Mods"
+      },
+      "linux": {
+        "local_mods": "Mods"
+      },
+      "macos": {}
+    },
+    "config_dir_paths": {
+      "windows": [
+        "{APPDATA}/../LocalLow/GSQ/Amazing Cultivation Simulator"
+      ],
+      "linux": [
+        "{HOME}/.local/share/Steam/steamapps/compatdata/{STEAM_APP_ID}/pfx/drive_c/users/steamuser/AppData/LocalLow/GSQ/Amazing Cultivation Simulator"
+      ],
+      "macos": []
+    }
+  },
+  "mod_parser": {
+    "game_core_folder": "",
+    "local_mods_folder": "Mods",
+    "game_core_id": "",
+    "game_dlc_ids": [],
+    "mod_metadata_file": "info.json"
+  },
+  "default_settings": {
+    "game_dir_path": "",
+    "workshop_dir_path": "",
+    "local_mod_dir_path": "",
+    "default_save_dir_path": "",
+    "last_profile": "",
+    "auto_sort": true,
+    "launch_steam": true,
+    "auto_detect_paths": true
+  }
+}

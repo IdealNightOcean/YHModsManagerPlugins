@@ -1,0 +1,70 @@
+{
+  "plugin_id": "Kenshi",
+  "plugin_version": "1.0.0",
+  "entry_point": "adapter",
+  "game_info": {
+    "steam_app_id": "233860",
+    "game_id": "Kenshi",
+    "default_name": "Kenshi",
+    "description": "Kenshi Mod管理工具",
+    "icon": "kenshi",
+    "author": "Lo-Fi Games",
+    "website": "https://www.lofigames.com/"
+  },
+  "path_validation": {
+    "game_folder_names": {
+      "windows": [
+        "Kenshi",
+        "Kenshi Steam"
+      ],
+      "linux": [
+        "Kenshi",
+        "Kenshi Steam"
+      ],
+      "macos": []
+    },
+    "executable_paths": {
+      "windows": [
+        "Kenshi_x64.exe",
+        "Kenshi.exe"
+      ],
+      "linux": [
+        "Kenshi_x64",
+        "Kenshi"
+      ],
+      "macos": []
+    },
+    "version_file": "currentVersion.txt",
+    "required_paths": {
+      "windows": {
+        "local_mods": "mods"
+      },
+      "linux": {
+        "local_mods": "mods"
+      },
+      "macos": {}
+    },
+    "config_dir_paths": {
+      "windows": [
+        "{APPDATA}/../Local/Kenshi"
+      ],
+      "linux": [
+        "{HOME}/.local/share/Steam/steamapps/compatdata/{STEAM_APP_ID}/pfx/drive_c/users/steamuser/AppData/Local/Kenshi"
+      ],
+      "macos": []
+    }
+  },
+  "mod_parser": {
+    "local_mods_folder": "mods"
+  },
+  "default_settings": {
+    "game_dir_path": "",
+    "workshop_dir_path": "",
+    "local_mod_dir_path": "",
+    "default_save_dir_path": "",
+    "last_profile": "",
+    "auto_sort": true,
+    "launch_steam": true,
+    "auto_detect_paths": true
+  }
+}

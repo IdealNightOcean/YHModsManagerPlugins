@@ -1,0 +1,9 @@
+{
+  "plugin_id": "error_test",
+  "plugin_type": "feature",
+  "plugin_version": "1.0.0",
+  "entry_point": "plugin",
+  "name": "Error Test",
+  "description": "测试插件功能：静态/动态错误检测、自定义排序、右键菜单",
+  "author": "Trae"
+}

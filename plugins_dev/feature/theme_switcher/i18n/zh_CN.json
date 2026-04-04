@@ -1,0 +1,13 @@
+{
+  "theme_switcher": {
+    "name": "主题切换",
+    "description": "快速切换深色/浅色主题",
+    "toggle_theme": "切换深色主题",
+    "switched_to_dark": "已切换到深色主题",
+    "switched_to_light": "已切换到浅色主题",
+    "dark_theme_unavailable": "深色主题不可用",
+    "theme_switch_failed": "切换主题失败: {}",
+    "theme_manager_not_initialized": "主题管理器未初始化",
+    "highlight_description": "选中mod的同列表+2位置和不同列表同位置高亮"
+  }
+}

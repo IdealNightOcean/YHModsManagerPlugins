@@ -1,0 +1,86 @@
+{
+  "plugin_id": "Bannerlord.Singleplayer",
+  "plugin_version": "1.1.0",
+  "entry_point": "adapter",
+  "game_info": {
+    "steam_app_id": "261550",
+    "game_id": "Bannerlord.Singleplayer",
+    "default_name": "Mount & Blade II: Bannerlord (Singleplayer)",
+    "description": "骑马与砍杀II：霸主 单机模式 Mod管理工具",
+    "icon": "bannerlord",
+    "author": "TaleWorlds Entertainment",
+    "website": "https://www.taleworlds.com/"
+  },
+  "path_validation": {
+    "game_folder_names": {
+      "windows": [
+        "Mount & Blade II Bannerlord",
+        "MountAndBlade2Bannerlord",
+        "M&B II Bannerlord"
+      ],
+      "linux": [
+        "Mount & Blade II Bannerlord",
+        "MountAndBlade2Bannerlord"
+      ],
+      "macos": []
+    },
+    "executable_paths": {
+      "windows": [
+        "bin/Win64_Shipping_Client/TaleWorlds.MountAndBlade.Launcher.exe"
+      ],
+      "linux": [
+        "bin/Linux64_Shipping_Client/TaleWorlds.MountAndBlade.Launcher"
+      ],
+      "macos": []
+    },
+    "required_paths": {
+      "windows": {
+        "local_mods": "Modules",
+        "game_core": "Modules/Native",
+        "game_core_metadata_file": "Modules/Native/SubModule.xml"
+      },
+      "linux": {
+        "local_mods": "Modules",
+        "game_core": "Modules/Native",
+        "game_core_metadata_file": "Modules/Native/SubModule.xml"
+      },
+      "macos": {}
+    },
+    "config_dir_paths": {
+      "windows": [
+        "{USERPROFILE}/Documents/Mount and Blade II Bannerlord/Configs"
+      ],
+      "linux": [
+        "{HOME}/.local/share/Steam/steamapps/compatdata/{STEAM_APP_ID}/pfx/drive_c/users/steamuser/Documents/Mount and Blade II Bannerlord/Configs"
+      ],
+      "macos": []
+    }
+  },
+  "mod_parser": {
+    "game_core_folder": "Modules",
+    "local_mods_folder": "Modules",
+    "game_core_id": "Native",
+    "game_dlc_ids": [
+      "BirthAndDeath",
+      "CustomBattle",
+      "Sandbox",
+      "SandBoxCore",
+      "StoryMode",
+      "Multiplayer"
+    ],
+    "mod_metadata_file": "SubModule.xml"
+  },
+  "default_settings": {
+    "game_dir_path": "",
+    "workshop_dir_path": "",
+    "local_mod_dir_path": "",
+    "default_save_dir_path": "",
+    "last_profile": "",
+    "auto_sort": true,
+    "launch_steam": true,
+    "auto_detect_paths": true
+  },
+  "custom_data": {
+    "multiplayer": false
+  }
+}

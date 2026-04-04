@@ -1,0 +1,89 @@
+{
+  "plugin_id": "Rimworld",
+  "plugin_version": "1.1.0",
+  "entry_point": "adapter",
+  "game_info": {
+    "steam_app_id": "294100",
+    "game_id": "Rimworld",
+    "default_name": "RimWorld",
+    "description": "RimWorld Mod管理工具",
+    "icon": "rimworld",
+    "author": "Ludeon Studios",
+    "website": "https://rimworldgame.com/"
+  },
+  "path_validation": {
+    "game_folder_names": {
+      "windows": [
+        "RimWorld",
+        "RimWorld by Ludeon Studios",
+        "RimWorldWin64"
+      ],
+      "linux": [
+        "RimWorld",
+        "RimWorldLinux"
+      ],
+      "macos": [
+        "RimWorld",
+        "RimWorldMac"
+      ]
+    },
+    "executable_paths": {
+      "windows": [
+        "RimWorldWin64.exe",
+        "RimWorldWin.exe"
+      ],
+      "linux": [
+        "RimWorldLinux"
+      ],
+      "macos": [
+        "RimWorld.app/Contents/MacOS/RimWorld"
+      ]
+    },
+    "version_file": "Version.txt",
+    "required_paths": {
+      "windows": {
+        "local_mods": "Mods",
+        "game_core": "Data/Core",
+        "game_core_metadata_file": "Data/Core/About.xml"
+      },
+      "linux": {
+        "mods": "Mods",
+        "game_core": "Data/Core",
+        "game_core_metadata_file": "Data/Core/About.xml"
+      },
+      "macos": {
+        "local_mods": "Mods",
+        "game_core": "Data/Core",
+        "game_core_metadata_file": "Data/Core/About.xml"
+      }
+    },
+    "config_dir_paths": {
+      "windows": [
+        "{APPDATA}/../LocalLow/Ludeon Studios/RimWorld by Ludeon Studios/Config",
+        "{APPDATA}/../LocalLow/Ludeon Studios/RimWorld/Config"
+      ],
+      "linux": [
+        "{HOME}/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/Config"
+      ],
+      "macos": [
+        "{HOME}/Library/Application Support/RimWorld/Config"
+      ]
+    }
+  },
+  "mod_parser": {
+    "game_core_folder": "Data",
+    "local_mods_folder": "Mods",
+    "game_core_id": "Ludeon.RimWorld",
+    "mod_metadata_file": "About.xml"
+  },
+  "default_settings": {
+    "game_dir_path": "",
+    "workshop_dir_path": "",
+    "local_mod_dir_path": "",
+    "default_save_dir_path": "",
+    "last_profile": "",
+    "auto_sort": true,
+    "launch_steam": true,
+    "auto_detect_paths": true
+  }
+}

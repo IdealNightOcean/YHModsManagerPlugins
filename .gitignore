@@ -1,0 +1,11 @@
+**/__pycache__/
+**/.ruff_cache/
+
+/.idea/
+/.trae/
+/.vscode/
+
+/SDK/
+
+/plugins/game/
+/plugins/feature/

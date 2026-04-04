@@ -1,0 +1,13 @@
+{
+  "theme_switcher": {
+    "name": "Theme Switcher",
+    "description": "Quickly switch between dark/light themes",
+    "toggle_theme": "Toggle Dark Theme",
+    "switched_to_dark": "Switched to dark theme",
+    "switched_to_light": "Switched to light theme",
+    "dark_theme_unavailable": "Dark theme is not available",
+    "theme_switch_failed": "Failed to switch theme: {}",
+    "theme_manager_not_initialized": "Theme manager not initialized",
+    "highlight_description": "Highlight mod at same list +2 position and different list same position"
+  }
+}
