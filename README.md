@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://www.python.org/)
 
-夜海多用模组管理工具 ([YHModsManager](https://github.com/IdealNightOcean/YHModsManager)) 的插件开发示例。
+夜海泛用模组管理器 ([YHModsManager](https://github.com/IdealNightOcean/YHModsManager)) 的插件开发示例。
 
-本仓库包含 夜海多用模组管理工具 的示例插件，主程序和 SDK 请前往主仓库获取。
+本仓库包含 夜海泛用模组管理器 的示例插件，主程序和 SDK 请前往主仓库获取。
 
 > ⚠️ **注意**：本仓库并非插件的集中存储仓库，仅是部分示例插件的展示，供开发者参考学习。
 
@@ -61,11 +61,11 @@ YHModsManagerPlugins/
 
 ## 开发指南
 
-详细的插件开发指南请参阅 [PLUGIN_DEVELOPMENT.md](./PLUGIN_DEVELOPMENT.md)。
+详细的插件开发指南请参阅 [PLUGIN_DEVELOPMENT.md](./插件开发指南.md)。
 
 ### 快速开始
 
-1. 从 [YHModsManager 主仓库](https://github.com/IdealNightOcean/YHModsManager) 获取 SDK 并安装：
+1. 从 [主项目仓库](https://github.com/IdealNightOcean/YHModsManager) 获取 SDK 并安装：
    ```bash
    pip install yh_mods_manager_sdk-x.x.x-py3-none-any.whl
    ```
