@@ -1,13 +1,15 @@
-# NightOcean’s Mods Manager Plugins
+# NightOcean's Mods Manager Plugins
 
 [![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://www.python.org/)
 
-Plugin development examples for NightOcean’s Mods Manager ([YHModsManager](https://github.com/IdealNightOcean/YHModsManager)).
+Plugin development examples for NightOcean's Mods Manager ([YHModsManager](https://github.com/IdealNightOcean/YHModsManager)).
 
-This repository contains example plugins for NightOcean’s Mods Manager. Please visit the main repository for the main program and SDK.
+This repository contains example plugins for NightOcean's Mods Manager. Please visit the main repository for the main program and SDK.
 
 > ⚠️ **Note**: This repository is not a centralized storage for plugins. It only showcases some example plugins for developers to reference and learn from.
+
+**English Version** | [中文版](./README.md)
 
 ## Table of Contents
 

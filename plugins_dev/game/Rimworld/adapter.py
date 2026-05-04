@@ -259,6 +259,10 @@ class RimWorldAdapter(GameAdapter):
         return None
 
     def launch_game_native(self, manager_collection: "ManagerCollectionProtocol") -> Tuple[bool, str]:
+        success, error = self.write_mod_order(manager_collection)
+        if not success:
+            return False, f"Failed to write mod order: {error}"
+    
         config_manager = manager_collection.get_config_manager()
         if not config_manager:
             return False, "config_manager not available"
@@ -281,6 +285,10 @@ class RimWorldAdapter(GameAdapter):
         return result.success, result.message
 
     def launch_game_steam(self, manager_collection: "ManagerCollectionProtocol") -> Tuple[bool, str]:
+        success, error = self.write_mod_order(manager_collection)
+        if not success:
+            return False, f"Failed to write mod order: {error}"
+    
         result = PlatformUtils.launch_steam_url(self.game_steam_app_id)
         return result.success, result.message
 
